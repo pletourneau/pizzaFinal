@@ -1,6 +1,8 @@
-// business logic
+// business logic for toppings
 
 
-function Pizza() {
-  this.toppings = {};
-}
+
+
+
+
+

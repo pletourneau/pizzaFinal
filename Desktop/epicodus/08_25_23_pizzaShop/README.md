@@ -24,11 +24,11 @@ _{This app allows a user to select toppings and size to build and price a pizza}
 ## TDD tests
 ```Javascript
 
-Describe: Pizza()
+Describe: Toppings()
 
-Test 1: "It should return a Pizza object with one (array) property for toppings"
-Code: let myPizza = new Pizza()["pepperoni", "sausage"];
-Expected Output: Pizza { toppings: ["pepperoni", "sausage"] }
+Test 1: "it should return a toppings object with up to three toppings"
+Code: let myToppings = new Toppings("pep", "saus", "mush");
+Expected Output: myToppings; Toppings {topOne: 'pep', topTwo: 'saus', topThree: 'mush'}
 
 ```
 
