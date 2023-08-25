@@ -26,9 +26,9 @@ _{This app allows a user to select toppings and size to build and price a pizza}
 
 Describe: Pizza()
 
-Test 1: "It should return a Pizza object with three properties for toppings, id, and size"
-Code: const myPizza = new Pizza(["pepperoni", "sausage"], "large");
-Expected Output: Pizza { toppings: ["pepperoni", "sausage"], id: 1, size: "large" }
+Test 1: "It should return a Pizza object with one (array) property for toppings"
+Code: let myPizza = new Pizza()["pepperoni", "sausage"];
+Expected Output: Pizza { toppings: ["pepperoni", "sausage"] }
 
 ```
 
